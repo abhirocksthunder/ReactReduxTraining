@@ -1,17 +1,30 @@
 import React from "react";
 import App from './App';
-import { render, screen } from '@testing-library/react';
+import { MemoryRouter } from "react-router-dom";
+import { mount } from "enzyme";
+
+const render = (initialEntries: any)=> mount(<MemoryRouter keyLength={0} initialEntries={initialEntries}><App /></MemoryRouter>);
 
 describe('Card Component', ()=>{
-    let sut;
-    let props;
-   
+    let sut: any;
 
-    it('should render', ()=>{
-        sut = render(<App />);
-        const linkElement = screen.getByText(/welcome/i);
-        expect(linkElement).toBeInTheDocument();
+    describe('when home page is rendered', () => {
+        beforeEach(() => {
+            sut = render(['/'])
+        });
+
+        it('should match home page snapshot', () => {
+            expect(sut).toMatchSnapshot();
+        })
     });
 
-    
+    describe('when not found page is rendered', () => {
+        beforeEach(() => {
+            sut = render(['/dfgsdff'])
+        });
+
+        it('should match not found page snapshot', () => {
+            expect(sut).toMatchSnapshot();
+        })
+    });    
 });

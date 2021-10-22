@@ -8,20 +8,18 @@ import agent from '../api/agent';
 import Cards from '../Movies/Cards';
 
 export default function Dashboard() {
-
-
-    const dispatch = useDispatch();
-
-    const fetchProducts = async () => {
-        const response = await agent.products.list();
-        dispatch(productsActions.getProducts(response));
-    }
-
-    useEffect(() => {
-
-        fetchProducts();
-    }, []);
+    const dispatch = useDispatch();   
     const products: Products[] = useSelector((state: any) => state.products.products);
+    
+    useEffect(() => {
+        const fetchProducts = async () => {
+            const response = await agent.products.list();
+            dispatch(productsActions.getProducts(response));
+        }
+        fetchProducts();
+    }, [dispatch]);
+
+    
 
     if (products.length === 0) return (
         <div style={{ textAlign: 'center', top: '20%' }}>

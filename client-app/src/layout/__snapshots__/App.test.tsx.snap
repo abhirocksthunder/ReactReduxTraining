@@ -1,0 +1,774 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Component when home page is rendered should match home page snapshot 1`] = `
+<MemoryRouter
+  initialEntries={
+    Array [
+      "/",
+    ]
+  }
+  keyLength={0}
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <App>
+      <div>
+        <NavBar>
+          <Menu
+            fixed="top"
+            inverted={true}
+          >
+            <div
+              className="ui inverted top fixed menu"
+            >
+              <Container>
+                <div
+                  className="ui container"
+                >
+                  <MenuItem
+                    as={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "propTypes": Object {
+                          "activeClassName": [Function],
+                          "activeStyle": [Function],
+                          "aria-current": [Function],
+                          "className": [Function],
+                          "exact": [Function],
+                          "innerRef": [Function],
+                          "isActive": [Function],
+                          "location": [Function],
+                          "onClick": [Function],
+                          "replace": [Function],
+                          "sensitive": [Function],
+                          "strict": [Function],
+                          "style": [Function],
+                          "target": [Function],
+                          "to": [Function],
+                        },
+                        "render": [Function],
+                      }
+                    }
+                    header={true}
+                    to="/"
+                  >
+                    <NavLink
+                      className="header item"
+                      onClick={[Function]}
+                      to="/"
+                    >
+                      <Link
+                        aria-current="page"
+                        className="header item active"
+                        onClick={[Function]}
+                        style={Object {}}
+                        to={
+                          Object {
+                            "hash": "",
+                            "pathname": "/",
+                            "search": "",
+                            "state": null,
+                          }
+                        }
+                      >
+                        <LinkAnchor
+                          aria-current="page"
+                          className="header item active"
+                          href="/"
+                          navigate={[Function]}
+                          onClick={[Function]}
+                          style={Object {}}
+                        >
+                          <a
+                            aria-current="page"
+                            className="header item active"
+                            href="/"
+                            onClick={[Function]}
+                            style={Object {}}
+                          >
+                            React Training
+                          </a>
+                        </LinkAnchor>
+                      </Link>
+                    </NavLink>
+                  </MenuItem>
+                  <MenuItem
+                    as={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "propTypes": Object {
+                          "activeClassName": [Function],
+                          "activeStyle": [Function],
+                          "aria-current": [Function],
+                          "className": [Function],
+                          "exact": [Function],
+                          "innerRef": [Function],
+                          "isActive": [Function],
+                          "location": [Function],
+                          "onClick": [Function],
+                          "replace": [Function],
+                          "sensitive": [Function],
+                          "strict": [Function],
+                          "style": [Function],
+                          "target": [Function],
+                          "to": [Function],
+                        },
+                        "render": [Function],
+                      }
+                    }
+                    name="Products"
+                    to="/products"
+                  >
+                    <NavLink
+                      className="item"
+                      onClick={[Function]}
+                      to="/products"
+                    >
+                      <Link
+                        aria-current={null}
+                        className="item"
+                        onClick={[Function]}
+                        to={
+                          Object {
+                            "hash": "",
+                            "pathname": "/products",
+                            "search": "",
+                            "state": null,
+                          }
+                        }
+                      >
+                        <LinkAnchor
+                          aria-current={null}
+                          className="item"
+                          href="/products"
+                          navigate={[Function]}
+                          onClick={[Function]}
+                        >
+                          <a
+                            aria-current={null}
+                            className="item"
+                            href="/products"
+                            onClick={[Function]}
+                          >
+                            Products
+                          </a>
+                        </LinkAnchor>
+                      </Link>
+                    </NavLink>
+                  </MenuItem>
+                  <MenuItem
+                    as={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "propTypes": Object {
+                          "activeClassName": [Function],
+                          "activeStyle": [Function],
+                          "aria-current": [Function],
+                          "className": [Function],
+                          "exact": [Function],
+                          "innerRef": [Function],
+                          "isActive": [Function],
+                          "location": [Function],
+                          "onClick": [Function],
+                          "replace": [Function],
+                          "sensitive": [Function],
+                          "strict": [Function],
+                          "style": [Function],
+                          "target": [Function],
+                          "to": [Function],
+                        },
+                        "render": [Function],
+                      }
+                    }
+                    name="Movies"
+                    to="/movies"
+                  >
+                    <NavLink
+                      className="item"
+                      onClick={[Function]}
+                      to="/movies"
+                    >
+                      <Link
+                        aria-current={null}
+                        className="item"
+                        onClick={[Function]}
+                        to={
+                          Object {
+                            "hash": "",
+                            "pathname": "/movies",
+                            "search": "",
+                            "state": null,
+                          }
+                        }
+                      >
+                        <LinkAnchor
+                          aria-current={null}
+                          className="item"
+                          href="/movies"
+                          navigate={[Function]}
+                          onClick={[Function]}
+                        >
+                          <a
+                            aria-current={null}
+                            className="item"
+                            href="/movies"
+                            onClick={[Function]}
+                          >
+                            Movies
+                          </a>
+                        </LinkAnchor>
+                      </Link>
+                    </NavLink>
+                  </MenuItem>
+                  <MenuItem
+                    as={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "propTypes": Object {
+                          "activeClassName": [Function],
+                          "activeStyle": [Function],
+                          "aria-current": [Function],
+                          "className": [Function],
+                          "exact": [Function],
+                          "innerRef": [Function],
+                          "isActive": [Function],
+                          "location": [Function],
+                          "onClick": [Function],
+                          "replace": [Function],
+                          "sensitive": [Function],
+                          "strict": [Function],
+                          "style": [Function],
+                          "target": [Function],
+                          "to": [Function],
+                        },
+                        "render": [Function],
+                      }
+                    }
+                    name="Weather Forecast"
+                    to="/weather"
+                  >
+                    <NavLink
+                      className="item"
+                      onClick={[Function]}
+                      to="/weather"
+                    >
+                      <Link
+                        aria-current={null}
+                        className="item"
+                        onClick={[Function]}
+                        to={
+                          Object {
+                            "hash": "",
+                            "pathname": "/weather",
+                            "search": "",
+                            "state": null,
+                          }
+                        }
+                      >
+                        <LinkAnchor
+                          aria-current={null}
+                          className="item"
+                          href="/weather"
+                          navigate={[Function]}
+                          onClick={[Function]}
+                        >
+                          <a
+                            aria-current={null}
+                            className="item"
+                            href="/weather"
+                            onClick={[Function]}
+                          >
+                            Weather Forecast
+                          </a>
+                        </LinkAnchor>
+                      </Link>
+                    </NavLink>
+                  </MenuItem>
+                </div>
+              </Container>
+            </div>
+          </Menu>
+        </NavBar>
+        <Container
+          style={
+            Object {
+              "marginTop": "3.5em",
+            }
+          }
+        >
+          <div
+            className="ui container"
+            style={
+              Object {
+                "marginTop": "3.5em",
+              }
+            }
+          >
+            <Route
+              component={[Function]}
+              exact={true}
+              path="/"
+            >
+              <Home
+                history={
+                  Object {
+                    "action": "POP",
+                    "block": [Function],
+                    "canGo": [Function],
+                    "createHref": [Function],
+                    "entries": Array [
+                      Object {
+                        "hash": "",
+                        "pathname": "/",
+                        "search": "",
+                        "state": undefined,
+                      },
+                    ],
+                    "go": [Function],
+                    "goBack": [Function],
+                    "goForward": [Function],
+                    "index": 0,
+                    "length": 1,
+                    "listen": [Function],
+                    "location": Object {
+                      "hash": "",
+                      "pathname": "/",
+                      "search": "",
+                      "state": undefined,
+                    },
+                    "push": [Function],
+                    "replace": [Function],
+                  }
+                }
+                location={
+                  Object {
+                    "hash": "",
+                    "pathname": "/",
+                    "search": "",
+                    "state": undefined,
+                  }
+                }
+                match={
+                  Object {
+                    "isExact": true,
+                    "params": Object {},
+                    "path": "/",
+                    "url": "/",
+                  }
+                }
+              >
+                <div
+                  style={
+                    Object {
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Welcome..
+                </div>
+              </Home>
+            </Route>
+            <Route
+              component={[Function]}
+              exact={true}
+              path="/products"
+            />
+            <Route
+              component={[Function]}
+              exact={true}
+              path="/movies"
+            />
+          </div>
+        </Container>
+      </div>
+    </App>
+  </Router>
+</MemoryRouter>
+`;
+
+exports[`Card Component when not found page is rendered should match not found page snapshot 1`] = `
+<MemoryRouter
+  initialEntries={
+    Array [
+      "/dfgsdff",
+    ]
+  }
+  keyLength={0}
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "pathname": "/dfgsdff",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/dfgsdff",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <App>
+      <div>
+        <NavBar>
+          <Menu
+            fixed="top"
+            inverted={true}
+          >
+            <div
+              className="ui inverted top fixed menu"
+            >
+              <Container>
+                <div
+                  className="ui container"
+                >
+                  <MenuItem
+                    as={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "propTypes": Object {
+                          "activeClassName": [Function],
+                          "activeStyle": [Function],
+                          "aria-current": [Function],
+                          "className": [Function],
+                          "exact": [Function],
+                          "innerRef": [Function],
+                          "isActive": [Function],
+                          "location": [Function],
+                          "onClick": [Function],
+                          "replace": [Function],
+                          "sensitive": [Function],
+                          "strict": [Function],
+                          "style": [Function],
+                          "target": [Function],
+                          "to": [Function],
+                        },
+                        "render": [Function],
+                      }
+                    }
+                    header={true}
+                    to="/"
+                  >
+                    <NavLink
+                      className="header item"
+                      onClick={[Function]}
+                      to="/"
+                    >
+                      <Link
+                        aria-current="page"
+                        className="header item active"
+                        onClick={[Function]}
+                        style={Object {}}
+                        to={
+                          Object {
+                            "hash": "",
+                            "pathname": "/",
+                            "search": "",
+                            "state": null,
+                          }
+                        }
+                      >
+                        <LinkAnchor
+                          aria-current="page"
+                          className="header item active"
+                          href="/"
+                          navigate={[Function]}
+                          onClick={[Function]}
+                          style={Object {}}
+                        >
+                          <a
+                            aria-current="page"
+                            className="header item active"
+                            href="/"
+                            onClick={[Function]}
+                            style={Object {}}
+                          >
+                            React Training
+                          </a>
+                        </LinkAnchor>
+                      </Link>
+                    </NavLink>
+                  </MenuItem>
+                  <MenuItem
+                    as={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "propTypes": Object {
+                          "activeClassName": [Function],
+                          "activeStyle": [Function],
+                          "aria-current": [Function],
+                          "className": [Function],
+                          "exact": [Function],
+                          "innerRef": [Function],
+                          "isActive": [Function],
+                          "location": [Function],
+                          "onClick": [Function],
+                          "replace": [Function],
+                          "sensitive": [Function],
+                          "strict": [Function],
+                          "style": [Function],
+                          "target": [Function],
+                          "to": [Function],
+                        },
+                        "render": [Function],
+                      }
+                    }
+                    name="Products"
+                    to="/products"
+                  >
+                    <NavLink
+                      className="item"
+                      onClick={[Function]}
+                      to="/products"
+                    >
+                      <Link
+                        aria-current={null}
+                        className="item"
+                        onClick={[Function]}
+                        to={
+                          Object {
+                            "hash": "",
+                            "pathname": "/products",
+                            "search": "",
+                            "state": null,
+                          }
+                        }
+                      >
+                        <LinkAnchor
+                          aria-current={null}
+                          className="item"
+                          href="/products"
+                          navigate={[Function]}
+                          onClick={[Function]}
+                        >
+                          <a
+                            aria-current={null}
+                            className="item"
+                            href="/products"
+                            onClick={[Function]}
+                          >
+                            Products
+                          </a>
+                        </LinkAnchor>
+                      </Link>
+                    </NavLink>
+                  </MenuItem>
+                  <MenuItem
+                    as={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "propTypes": Object {
+                          "activeClassName": [Function],
+                          "activeStyle": [Function],
+                          "aria-current": [Function],
+                          "className": [Function],
+                          "exact": [Function],
+                          "innerRef": [Function],
+                          "isActive": [Function],
+                          "location": [Function],
+                          "onClick": [Function],
+                          "replace": [Function],
+                          "sensitive": [Function],
+                          "strict": [Function],
+                          "style": [Function],
+                          "target": [Function],
+                          "to": [Function],
+                        },
+                        "render": [Function],
+                      }
+                    }
+                    name="Movies"
+                    to="/movies"
+                  >
+                    <NavLink
+                      className="item"
+                      onClick={[Function]}
+                      to="/movies"
+                    >
+                      <Link
+                        aria-current={null}
+                        className="item"
+                        onClick={[Function]}
+                        to={
+                          Object {
+                            "hash": "",
+                            "pathname": "/movies",
+                            "search": "",
+                            "state": null,
+                          }
+                        }
+                      >
+                        <LinkAnchor
+                          aria-current={null}
+                          className="item"
+                          href="/movies"
+                          navigate={[Function]}
+                          onClick={[Function]}
+                        >
+                          <a
+                            aria-current={null}
+                            className="item"
+                            href="/movies"
+                            onClick={[Function]}
+                          >
+                            Movies
+                          </a>
+                        </LinkAnchor>
+                      </Link>
+                    </NavLink>
+                  </MenuItem>
+                  <MenuItem
+                    as={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "propTypes": Object {
+                          "activeClassName": [Function],
+                          "activeStyle": [Function],
+                          "aria-current": [Function],
+                          "className": [Function],
+                          "exact": [Function],
+                          "innerRef": [Function],
+                          "isActive": [Function],
+                          "location": [Function],
+                          "onClick": [Function],
+                          "replace": [Function],
+                          "sensitive": [Function],
+                          "strict": [Function],
+                          "style": [Function],
+                          "target": [Function],
+                          "to": [Function],
+                        },
+                        "render": [Function],
+                      }
+                    }
+                    name="Weather Forecast"
+                    to="/weather"
+                  >
+                    <NavLink
+                      className="item"
+                      onClick={[Function]}
+                      to="/weather"
+                    >
+                      <Link
+                        aria-current={null}
+                        className="item"
+                        onClick={[Function]}
+                        to={
+                          Object {
+                            "hash": "",
+                            "pathname": "/weather",
+                            "search": "",
+                            "state": null,
+                          }
+                        }
+                      >
+                        <LinkAnchor
+                          aria-current={null}
+                          className="item"
+                          href="/weather"
+                          navigate={[Function]}
+                          onClick={[Function]}
+                        >
+                          <a
+                            aria-current={null}
+                            className="item"
+                            href="/weather"
+                            onClick={[Function]}
+                          >
+                            Weather Forecast
+                          </a>
+                        </LinkAnchor>
+                      </Link>
+                    </NavLink>
+                  </MenuItem>
+                </div>
+              </Container>
+            </div>
+          </Menu>
+        </NavBar>
+        <Container
+          style={
+            Object {
+              "marginTop": "3.5em",
+            }
+          }
+        >
+          <div
+            className="ui container"
+            style={
+              Object {
+                "marginTop": "3.5em",
+              }
+            }
+          >
+            <Route
+              component={[Function]}
+              exact={true}
+              path="/"
+            />
+            <Route
+              component={[Function]}
+              exact={true}
+              path="/products"
+            />
+            <Route
+              component={[Function]}
+              exact={true}
+              path="/movies"
+            />
+          </div>
+        </Container>
+      </div>
+    </App>
+  </Router>
+</MemoryRouter>
+`;

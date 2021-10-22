@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { Products } from "../models/Products";
 
-interface ProductsList{
+export interface ProductsList{
     products: Products[]
 }
 

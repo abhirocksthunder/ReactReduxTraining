@@ -1,9 +1,11 @@
 import React from "react";
 import Cards from './Cards';
-import { render } from '@testing-library/react';
+import { shallow } from 'enzyme';
+
+const render = (props: any) => shallow(<Cards {...props} />);
 
 describe('Card Component', ()=>{
-    let sut;
+    let sut: any;
     let props ={
         id:"1",
         title:'Test1',
@@ -14,13 +16,23 @@ describe('Card Component', ()=>{
         ...props, image:""
     };
 
-    it('should match snapshot', ()=>{
-        sut = render(<Cards {...props}/>);
-        expect(sut).toMatchSnapshot();
-    });
+    describe('with props',()=>{
+        beforeEach(()=>{
+            sut = render(props);
+        });
 
-    it('should match snapshot without image', ()=>{
-        sut = render(<Cards {...propsWithoutImages}/>);
-        expect(sut).toMatchSnapshot();
-    });
+        it('should match snapshot', ()=>{           
+            expect(sut).toMatchSnapshot();
+        });
+    })
+
+    describe('without image prop',()=>{
+        beforeEach(()=>{
+            sut = render(propsWithoutImages);
+        });
+
+        it('should match snapshot without image', ()=>{            
+            expect(sut).toMatchSnapshot();
+        });
+    })
 });

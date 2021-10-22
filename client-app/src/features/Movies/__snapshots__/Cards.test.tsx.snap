@@ -219,3 +219,74 @@ Object {
   "unmount": [Function],
 }
 `;
+
+exports[`Card Component with props should match snapshot 1`] = `
+<Card
+  body={false}
+>
+  <CardImg
+    src="https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg"
+    style={
+      Object {
+        "height": "15rem",
+        "objectFit": "contain",
+        "width": "100%",
+      }
+    }
+    variant="top"
+  />
+  <CardBody>
+    <CardTitle
+      style={
+        Object {
+          "height": "5rem",
+          "minHeight": "5rem",
+          "textAlign": "center",
+        }
+      }
+      title="Test1"
+    >
+      Test1
+    </CardTitle>
+    <CardText
+      style={
+        Object {
+          "float": "right",
+        }
+      }
+    >
+      100
+    </CardText>
+  </CardBody>
+</Card>
+`;
+
+exports[`Card Component without image prop should match snapshot without image 1`] = `
+<Card
+  body={false}
+>
+  <CardBody>
+    <CardTitle
+      style={
+        Object {
+          "height": "5rem",
+          "minHeight": "5rem",
+          "textAlign": "center",
+        }
+      }
+      title="Test1"
+    >
+      Test1
+    </CardTitle>
+    <CardText
+      style={
+        Object {
+          "float": "right",
+        }
+      }
+    >
+      100
+    </CardText>
+  </CardBody>
+</Card>
+`;
